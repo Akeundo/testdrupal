@@ -1,0 +1,23 @@
+uuid: bbffaa39-d6af-4cc1-af08-a0c7607735c9
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+  theme:
+    - stark
+id: stark_entityviewwebformsubmission
+theme: stark
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'entity_view:webform_submission'
+settings:
+  id: 'entity_view:webform_submission'
+  label: 'Entity view (Webform submission)'
+  provider: ctools
+  label_display: visible
+  view_mode: default
+  context_mapping:
+    entity: '@webform.webform_submission_route_context:webform_submission'
+visibility: {  }

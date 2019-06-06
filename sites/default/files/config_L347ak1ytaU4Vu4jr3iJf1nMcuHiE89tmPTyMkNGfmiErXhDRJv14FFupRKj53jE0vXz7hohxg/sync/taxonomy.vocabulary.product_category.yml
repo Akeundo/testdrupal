@@ -1,0 +1,10 @@
+uuid: 732e6483-de20-4c3e-aac9-2b5ede299043
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: nYd3Qt2SZ0Qh5tEgl9ybIAppV_4n9a01pfiwi1-C__g
+name: 'Product category'
+vid: product_category
+description: ''
+weight: 0

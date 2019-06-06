@@ -1,0 +1,10 @@
+uuid: 147a2ffb-9254-4499-b442-3a7423740d33
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: xrEFn7f9HGHg5aGLpEZ7PQ0VsGCRzGYMTOiM3NQ5eSw
+id: footer-third
+label: 'Footer third'
+description: ''
+locked: true

@@ -1,0 +1,38 @@
+uuid: ffdb7eb4-13c4-49b5-b8df-82d10b48354a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_movie_poster
+    - node.type.media
+  module:
+    - image
+id: node.media.field_movie_poster
+field_name: field_movie_poster
+entity_type: node
+bundle: media
+label: 'Movie poster'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: '100 Kb'
+  max_resolution: 600x600
+  min_resolution: 100x100
+  alt_field: true
+  alt_field_required: false
+  title_field: true
+  title_field_required: true
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

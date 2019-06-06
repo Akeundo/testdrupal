@@ -1,0 +1,10 @@
+uuid: 17c2706a-8ec7-424a-85e4-5c557c367ad2
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: tlftPs_f0sKX0oCOt5uOpn_1kNbsjdMOizPwJtuRorM
+id: reviews
+label: Reviews
+target_entity_type_id: commerce_product
+description: ''

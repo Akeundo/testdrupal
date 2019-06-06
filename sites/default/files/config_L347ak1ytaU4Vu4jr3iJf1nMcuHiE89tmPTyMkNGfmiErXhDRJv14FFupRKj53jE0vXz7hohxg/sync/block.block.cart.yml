@@ -1,0 +1,23 @@
+uuid: 6dbff2b7-6aae-43b4-94e1-1d895c2f96c7
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_cart
+  theme:
+    - estore
+_core:
+  default_config_hash: 1VWWa7GwHrOlB6hT0Mto6c7OpxCKs7qFje5iIMl2MLU
+id: cart
+theme: estore
+region: right_middle_header
+weight: 0
+provider: null
+plugin: commerce_cart
+settings:
+  id: commerce_cart
+  label: Cart
+  provider: commerce_cart
+  label_display: '0'
+  dropdown: true
+visibility: {  }

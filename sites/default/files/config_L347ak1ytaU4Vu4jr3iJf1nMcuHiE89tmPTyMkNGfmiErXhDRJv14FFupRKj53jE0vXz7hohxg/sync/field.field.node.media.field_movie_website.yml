@@ -1,0 +1,23 @@
+uuid: fe42de51-5938-4760-9a8a-2305eee90c65
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_movie_website
+    - node.type.media
+  module:
+    - link
+id: node.media.field_movie_website
+field_name: field_movie_website
+entity_type: node
+bundle: media
+label: 'Movie website'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

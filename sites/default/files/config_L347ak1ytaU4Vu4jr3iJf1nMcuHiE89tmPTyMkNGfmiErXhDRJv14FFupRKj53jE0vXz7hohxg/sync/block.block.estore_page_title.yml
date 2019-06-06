@@ -1,0 +1,20 @@
+uuid: 65e6b5b2-cde7-446d-bd94-fcb5b6b54f8c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - estore
+_core:
+  default_config_hash: I5peIo_gKUAudsDOB1oMviIm3xYmVjhfTkWHPpJT_oU
+id: estore_page_title
+theme: estore
+region: header
+weight: -10
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

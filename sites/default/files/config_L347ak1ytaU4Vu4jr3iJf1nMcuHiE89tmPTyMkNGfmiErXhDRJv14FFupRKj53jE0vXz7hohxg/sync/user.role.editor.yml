@@ -1,0 +1,13 @@
+uuid: 392ea397-e461-4d81-a6b9-727c98d0aeac
+langcode: en
+status: true
+dependencies: {  }
+id: editor
+label: Editor
+weight: -8
+is_admin: null
+permissions:
+  - 'access commerce administration pages'
+  - 'administer comment types'
+  - 'administer comments'
+  - 'edit own comments'

@@ -1,0 +1,25 @@
+uuid: 28e30c2f-8811-4d49-a1b8-a585b932a6cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.default
+    - field.storage.commerce_product.field_sale
+_core:
+  default_config_hash: Ao0quG2dx7M-zE-uWFFqCx3NHybAMFOoG26HmIEdyLI
+id: commerce_product.default.field_sale
+field_name: field_sale
+entity_type: commerce_product
+bundle: default
+label: Sale
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

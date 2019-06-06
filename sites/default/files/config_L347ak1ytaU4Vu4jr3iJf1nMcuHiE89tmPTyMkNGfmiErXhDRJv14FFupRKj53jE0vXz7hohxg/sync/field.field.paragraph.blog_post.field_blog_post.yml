@@ -1,0 +1,19 @@
+uuid: eaedc279-7200-4675-a61b-a70ff994c864
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_blog_post
+    - paragraphs.paragraphs_type.blog_post
+id: paragraph.blog_post.field_blog_post
+field_name: field_blog_post
+entity_type: paragraph
+bundle: blog_post
+label: 'blog post'
+description: 'some post'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

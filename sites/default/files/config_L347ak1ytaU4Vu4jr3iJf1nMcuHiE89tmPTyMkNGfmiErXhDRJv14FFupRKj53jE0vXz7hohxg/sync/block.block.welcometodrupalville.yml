@@ -1,0 +1,25 @@
+uuid: 007f7d20-6f80-4126-9c70-08eb64d89ba4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:00e6c4cc-2e7e-49b4-8a3b-11769468b54b'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: welcometodrupalville
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:00e6c4cc-2e7e-49b4-8a3b-11769468b54b'
+settings:
+  id: 'block_content:00e6c4cc-2e7e-49b4-8a3b-11769468b54b'
+  label: 'welcome to drupalville'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

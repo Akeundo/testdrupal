@@ -1,0 +1,22 @@
+uuid: 3e6734f9-5f6d-4500-a5fd-99062cc3e603
+langcode: en
+status: true
+dependencies:
+  theme:
+    - estore
+_core:
+  default_config_hash: hKkeUU91cnDp5MWJtOC5xELq_5Avc6rHm3TGRlXLDsk
+id: estore_local_tasks
+theme: estore
+region: content
+weight: -9
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

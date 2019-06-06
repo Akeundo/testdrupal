@@ -1,0 +1,22 @@
+uuid: 6147aa5f-a198-4dd9-9c9f-9584aa73181e
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+    - commerce_product
+_core:
+  default_config_hash: KFaQwx21bqc5f8YVvNP3CAec_p-7b_nmAgZOyAt0VMY
+id: commerce_product.field_reviews
+field_name: field_reviews
+entity_type: commerce_product
+type: comment
+settings:
+  comment_type: reviews
+module: comment
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
